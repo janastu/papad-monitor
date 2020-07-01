@@ -4,6 +4,7 @@ Scripts to manage export import from papad database to handover to syncthing fol
 * `main.py` is the watcher for changes in the configured (syncthing folders) and if any changes will `import_json()` content into db
 * `dump.py` exports the contents of db and saves into json file in the configured path (syncthing folders), this should be run in a crontab to run in intervals
 * The dumped JSON file naming convention is macid.json
+* `load.py` is where `import_json()` is defined, and manages the merging of content, ex. tags.
 
 ## Install
 1. Clone this repository `git clone https://github.com/janastu/papad-monitor.git`
