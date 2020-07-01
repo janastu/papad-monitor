@@ -20,7 +20,7 @@ Scripts to manage export import from papad database to handover to syncthing fol
 * User X and Y access papad through Device A via the url https://deviceA.local
 * User Z access papad through Device B via the url https://deviceB.local
 * User X adds a tag "gulab jamoon recipe" to `jamoon.mp3` at https://deviceA.local
-* User Y adds a image of gulab jamoon to `jamoon.mp3` at https://deviceA.local
+* User Y adds a image `jamoon.png` to `jamoon.mp3` at https://deviceA.local
 * User Z should be able to see `jamoon.mp3` with the tags and images  User X and Y at https://deviceB.local
 
 ## References
